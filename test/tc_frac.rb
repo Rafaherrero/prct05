@@ -12,4 +12,16 @@ end
     def test_resta
        assert_equal("-9/2",(@fracional1-@fracional2).to_s) 
     end
+    def test_mult
+        assert_equal("-65/16",(@fracional1*@fracional2).to_s)
+    end
+    def test_div
+        
+    end
+    def test_suma_propio
+        
+    end
+    def test_resta_propio
+        
+    end
 end

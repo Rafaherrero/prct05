@@ -37,4 +37,12 @@ class Fraccionario
 		den = @den * numero.den
 		Fraccionario.new(num, den)
 	end
+	def *(numero)
+		num = @num*numero.num
+		den = @den*numero.den
+		Fraccionario.new(num,den)
+	end
+	def /(numero)
+		
+	end
 end
