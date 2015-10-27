@@ -16,12 +16,12 @@ end
         assert_equal("-65/16",(@fracional1*@fracional2).to_s)
     end
     def test_div
-        
+        assert_equal("-5/13",(@fracional1/@fracional2).to_s)
     end
     def test_suma_propio
-        
+        assert_equal("13/2",(+@fracional2).to_s)
     end
     def test_resta_propio
-        
+        assert_equal("0",(-@fracional1).to_s)
     end
 end
