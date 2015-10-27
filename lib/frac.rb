@@ -52,4 +52,9 @@ class Fraccionario
 		den = @den
 		Fraccionario.new(num,den)
 	end
+	def -@
+		num = @num-@num
+		den = @den
+		Fraccionario.new(num,den)
+	end
 end

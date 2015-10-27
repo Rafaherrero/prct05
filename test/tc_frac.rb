@@ -22,6 +22,6 @@ end
         assert_equal("13/2",(+@fracional2).to_s)
     end
     def test_resta_propio
-        assert_equal("0",(-@fracional1).to_s)
+        assert_equal("0/1",(-@fracional1).to_s)
     end
 end
