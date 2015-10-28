@@ -5,7 +5,7 @@ class Test_Fraccion < Test::Unit::TestCase
     def setup
     @fracional1 = Fraccionario.new(-5,4)
     @fracional2 = Fraccionario.new(13,4)
-end
+    end
     def test_suma
 		assert_equal("2/1", (@fracional1+@fracional2).to_s)
 	end
@@ -24,4 +24,5 @@ end
     def test_resta_propio
         assert_equal("0/1",(-@fracional1).to_s)
     end
+
 end
